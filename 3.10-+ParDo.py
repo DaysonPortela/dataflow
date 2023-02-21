@@ -38,7 +38,7 @@ Qtd_Atrasos = (
   | "Pegar voos com Qtd" >> beam.ParDo(filtro())
   | "Criar par Qtd" >> beam.Map(lambda record: (record[4],int(record[8])))
   | "Contar por key" >> beam.combiners.Count.PerKey()
-##  | "Mostrar Resultados QTD" >> beam.Map(print)
+###  | "Mostrar Resultados QTD" >> beam.Map(print)
 )
 
 tabela_atrasos = (
