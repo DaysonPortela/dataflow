@@ -7,7 +7,7 @@ serviceAccount = r'teste-dataflow-beam-5fd7f05c5f1f.json'
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= serviceAccount
 
 
-# configuração de Cluster, minimo a ser declarado
+### configuração de Cluster, minimo a ser declarado
 pipeline_options = {
     'project': 'teste-dataflow-beam' ,
     'runner': 'DataflowRunner',
