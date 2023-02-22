@@ -23,7 +23,7 @@ p1 = beam.Pipeline(options=pipeline_options)
 
 def texto_para_lista(elemento, delimitador=','):
     """
-    Recebe um texto e um delimitador
+    Recebe um texto e um delimitadorr
     Retorna uma lista de elementos pelo delimitador
     """
     return elemento.split(delimitador)
