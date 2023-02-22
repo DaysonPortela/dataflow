@@ -23,13 +23,21 @@ p1 = beam.Pipeline(options=pipeline_options)
 
 def texto_para_lista(elemento, delimitador=','):
     """
-    Recebe um texto e um delimitadorr
+<<<<<<< HEAD
+    Recebe um texto e um delimitador
+=======
+    Recebe um texto e um delimitador
+>>>>>>> 5e8cb61fad53517e50328166348a9efb4156de14
     Retorna uma lista de elementos pelo delimitador
     """
     return elemento.split(delimitador)
 
 
-###Pardo processamento parelalo
+<<<<<<< HEAD
+##Pardo processamento parelalo
+=======
+##Pardo processamento parelalo
+>>>>>>> 5e8cb61fad53517e50328166348a9efb4156de14
 class tira_espaco(beam.DoFn):
   def process(self,elemento):
         """
