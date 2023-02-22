@@ -29,7 +29,7 @@ def texto_para_lista(elemento, delimitador=','):
     return elemento.split(delimitador)
 
 
-##Pardo processamento parelalo
+###Pardo processamento parelalo
 class tira_espaco(beam.DoFn):
   def process(self,elemento):
         """
